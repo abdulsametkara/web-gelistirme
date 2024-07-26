@@ -1,0 +1,74 @@
+/*
+h2[title="baslik1"]{
+    color: red;
+
+}
+
+p[title="paragraf1"]{
+    color: blue;
+    text-align: justify;
+}
+
+
+a[target="_blank"] {
+    color: brown;
+
+}
+
+input[type="text"] {
+    background-color: darkgreen;
+
+}
+
+input[type="button"] {
+    color: brown;
+    background-color: aqua;
+}*/
+
+
+
+/*Pseudo Element*/
+
+p::first-line {
+    font-weight: bold;
+    color: darkgrey;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+/*Pseudo Class */
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{
+    background-color: darkseagreen;
+
+}
+
+ul li:last-child{
+    background-color: forestgreen;
+}
+
+a:visited{
+    color: darkslategrey;
+}
+
+a:hover{
+    color: antiquewhite;
+    background-color: blue;
+}
+
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
